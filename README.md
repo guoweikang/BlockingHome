@@ -37,12 +37,13 @@
  - 梳理通用组件，并把它独立出去，各个OS通过外部仓库方式引用
  - 梳理特殊组件，哪些组件是产品所特有的功能，如果组件本身符合设计原则，也可以独立出去，作为特殊产品的组件
 
-## OS实现仓库
+## 改造的OS清单
+下表列出了进行改造的OS实现的仓库地址
 | OS | Extra modules | Enabled features | Description |
 |-|-|-|-|
-| ArceOS | | | 从ArceOS Fork过来的仓库 一个unikernel的实现 |
-| ArceOS-hyp | | | 从ArceOS-hyp Fork过来的仓库 一个虚拟化的实现 |
-| Arceos-monolithic | | | 从Arceos-monolithic Fork过来的仓库 一个宏内核的实现 |
+| [ArceOS](https://github.com/guoweikang/arceos/tree/guoweikang/blocking-unikernel) | | | 从ArceOS Fork过来的仓库 一个unikernel的实现 |
+| [ArceOS-hyp](https://github.com/guoweikang/arceos/tree/guoweikang/blocking-hyp) | | | 从ArceOS-hyp Fork过来的仓库 一个虚拟化的实现 |
+| [Arceos-monolithi]c(https://github.com/guoweikang/arceos/tree/guoweikang/blocking-mon) | | | 从Arceos-monolithic Fork过来的仓库 一个宏内核的实现 |
 
 我们将对上述三个仓库同步进行组件化的改造验证
 
