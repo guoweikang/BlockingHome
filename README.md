@@ -43,7 +43,7 @@
 |-|-|-|-|
 | [ArceOS](https://github.com/guoweikang/arceos/tree/guoweikang/blocking-unikernel) | | | 从ArceOS Fork过来的仓库 一个unikernel的实现 |
 | [ArceOS-hyp](https://github.com/guoweikang/arceos/tree/guoweikang/blocking-hyp) | | | 从ArceOS-hyp Fork过来的仓库 一个虚拟化的实现 |
-| [Arceos-monolithi]c(https://github.com/guoweikang/arceos/tree/guoweikang/blocking-mon) | | | 从Arceos-monolithic Fork过来的仓库 一个宏内核的实现 |
+| [Arceos-monolithic](https://github.com/guoweikang/arceos/tree/guoweikang/blocking-mon) | | | 从Arceos-monolithic Fork过来的仓库 一个宏内核的实现 |
 
 我们将对上述三个仓库同步进行组件化的改造验证
 
